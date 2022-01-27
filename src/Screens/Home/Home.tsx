@@ -5,16 +5,9 @@ import {
 
 const Home = () => {
   return <div className='Home'>
-    <h1>Bookkeeper</h1>
-    <nav
-      style={{
-        borderBottom: "solid 1px",
-        paddingBottom: "1rem"
-      }}
-    >
-      <Link to="/invoices">Invoices</Link> | {" "}
-      <Link to="/expenses">Expenses</Link>
-    </nav>
+    <h1 className="text-secondary fw-bold">
+      Welcome to Bookkeeper's
+    </h1>
   </div>;
 };
 
